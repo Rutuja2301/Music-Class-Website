@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Bar</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .top-bar {
+            background-color: #111;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .contact-info i {
+            margin-right: 8px;
+            color: crimson;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons i {
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons i:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="contact-info">
+            <span><i class="fas fa-envelope"></i>madovermusic2004@gmail.com</span>
+            <span><i class="fas fa-phone"></i>+91-8698122004</span>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/YourPageName" target="_blank">
+                <i class="fab fa-facebook-f" style="font-size: 24px; color: white;"></i>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@madovermusicacademy" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="MFG" width="">
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <button class="custom-btn">Join Class</button>
+                </ul>
+           
+
+            </nav>
+        </div>
+    </header>
+
+</body>
+
+</html>
