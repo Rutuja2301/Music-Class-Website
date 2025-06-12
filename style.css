@@ -70,3 +70,9 @@ nav {
     .custom-btn:hover {
       background-color: #0056b3;      /* Darker blue on hover */
     }
+.groupphoto {
+
+  width: 100%;
+      height: 100px;
+      
+}
